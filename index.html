@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple C Program</title>
+</head>
+<body>
+
+    <h1>Addition of Two Numbers</h1>
+
+    <input type="number" id="a" placeholder="Enter first number">
+    <input type="number" id="b" placeholder="Enter second number">
+
+    <button onclick="addNumbers()">Run</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        function addNumbers() {
+            let a = Number(document.getElementById("a").value);
+            let b = Number(document.getElementById("b").value);
+
+            let sum = a + b;
+
+            document.getElementById("result").innerHTML =
+                "Sum = " + sum;
+        }
+    </script>
+
+</body>
+</html>
