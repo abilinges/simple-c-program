@@ -1,0 +1,31 @@
+Student Management System in C
+
+Project Description
+
+This project is a simple Student Management System developed using the C programming language and Docker.
+
+Features
+
+- Add Student
+- Display Students
+- Search Student
+- Exit the Application
+
+Technologies Used
+
+- C Programming
+- Docker
+- Docker Hub
+- AWS EC2 Ubuntu
+
+Build Docker Image
+
+docker build -t studentapp .
+
+Run the Application
+
+docker run -it --rm studentapp
+
+Docker Hub
+
+Docker image: "abinayalakshmanan/studentapp:latest"
